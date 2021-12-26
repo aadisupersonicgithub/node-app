@@ -1,0 +1,43 @@
+node 
+node --version
+npm --version 
+npm init 
+npm install 
+npm install -g
+npm i -g nodemon {can use in any as global install}
+directories : package.json node modules
+dev dependency {eg nodemon (ie used while development only)}
+npm install express --save {to install express package}
+to install :: npm install --save-dev <package_name> 
+package_name : nodemon 
+npm uninstall nodemon 
+npm uninstall expressnpm 
+npm install $angular/cli
+package-lock.json > have our whole dependency tree as it is 
+package > have our dependencies (ie ek package ka naam)
+
+
+How to import :: 
+1 common js modules {importing from one file}
+
+import : 
+const who = require ('./second.js');
+
+second.js : 
+obj aadi; 
+exports = aadi; (name of object in second.js)
+
+2 es6 modules 
+baad me 
+use .mjs extension to show that we need es6 modules
+1/1+ file/files kr skte export import 
+.mjs me require kaam nahi krega
+
+ 
+
+
+Modele wrapper function 
+// implicitly called by nodejs 
+
+
+
